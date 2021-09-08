@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ChatX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="new_user_click_here_to_register">New User? Click here to register</string>
+    <string name="login">Login</string>
 </resources>
