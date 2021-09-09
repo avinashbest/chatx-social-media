@@ -77,6 +77,17 @@
         app:layout_constraintStart_toStartOf="@id/password_text"
         app:layout_constraintTop_toBottomOf="@id/password_text" />
 
+    <ProgressBar
+        android:id="@+id/login_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_login"
+        app:layout_constraintStart_toStartOf="@id/btn_login"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        tools:visibility="visible" />
+
     <TextView
         android:id="@+id/signup_textView"
         android:layout_width="wrap_content"

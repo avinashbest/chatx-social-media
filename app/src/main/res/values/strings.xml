@@ -10,4 +10,5 @@
     <string name="logo">logo</string>
     <string name="signup">Signup</string>
     <string name="already_a_user_login">Already a user? Login</string>
+    <string name="name">Name</string>
 </resources>

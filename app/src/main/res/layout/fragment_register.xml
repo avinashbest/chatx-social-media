@@ -11,7 +11,7 @@
         android:id="@+id/logo_imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:contentDescription="@string/logo"
         android:src="@drawable/chatx_logo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,10 +33,29 @@
         app:startIconDrawable="@drawable/person_icon">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_text"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/name"
+        app:layout_constraintEnd_toEndOf="@id/email_text"
+        app:layout_constraintStart_toStartOf="@id/email_text"
+        app:layout_constraintTop_toBottomOf="@id/email_text"
+        app:startIconDrawable="@drawable/person_icon">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,13 +67,12 @@
         android:layout_marginTop="24dp"
         android:hint="@string/password"
         app:endIconMode="password_toggle"
-        app:layout_constraintEnd_toEndOf="@id/email_text"
-        app:layout_constraintStart_toStartOf="@id/email_text"
-        app:layout_constraintTop_toBottomOf="@id/email_text"
+        app:layout_constraintEnd_toEndOf="@id/name_text"
+        app:layout_constraintStart_toStartOf="@id/name_text"
+        app:layout_constraintTop_toBottomOf="@id/name_text"
         app:startIconDrawable="@drawable/lock_icon">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password_passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
@@ -75,7 +93,6 @@
         app:startIconDrawable="@drawable/lock_icon">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password_confirmPasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
@@ -98,6 +115,17 @@
         app:layout_constraintEnd_toEndOf="@id/confirm_password_text"
         app:layout_constraintStart_toStartOf="@id/confirm_password_text"
         app:layout_constraintTop_toBottomOf="@id/confirm_password_text" />
+
+    <ProgressBar
+        android:id="@+id/signup_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_signup"
+        app:layout_constraintStart_toStartOf="@id/btn_signup"
+        app:layout_constraintTop_toBottomOf="@id/btn_signup"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/login_textView"
