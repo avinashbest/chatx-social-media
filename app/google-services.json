@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979721775360",
+    "project_id": "chatx-social-media-app",
+    "storage_bucket": "chatx-social-media-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979721775360:android:57643d5fdd265f2347ebe5",
+        "android_client_info": {
+          "package_name": "com.avinash.chatx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979721775360-smol0l25uid9jss0rl2jvr94c0umd915.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiqUKM4eAnfzW4pkAPrI15QB8QPfdmQME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979721775360-smol0l25uid9jss0rl2jvr94c0umd915.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
