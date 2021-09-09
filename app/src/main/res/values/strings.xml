@@ -6,4 +6,8 @@
     <string name="email">Email</string>
     <string name="new_user_click_here_to_register">New User? Click here to register</string>
     <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="logo">logo</string>
+    <string name="signup">Signup</string>
+    <string name="already_a_user_login">Already a user? Login</string>
 </resources>

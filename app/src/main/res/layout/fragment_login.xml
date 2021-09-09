@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/emailText"
+        android:id="@+id/email_text"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,16 +40,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/passwordText"
+        android:id="@+id/password_text"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:hint="@string/password"
         app:endIconMode="password_toggle"
-        app:layout_constraintEnd_toEndOf="@id/emailText"
-        app:layout_constraintStart_toStartOf="@id/emailText"
-        app:layout_constraintTop_toBottomOf="@id/emailText"
+        app:layout_constraintEnd_toEndOf="@id/email_text"
+        app:layout_constraintStart_toStartOf="@id/email_text"
+        app:layout_constraintTop_toBottomOf="@id/email_text"
         app:startIconDrawable="@drawable/lock_icon">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -61,6 +61,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
         style="@style/Widget.MaterialComponents.FloatingActionButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -70,11 +71,12 @@
         android:padding="16dp"
         android:textColorHint="@color/white"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@id/passwordText"
-        app:layout_constraintStart_toStartOf="@id/passwordText"
-        app:layout_constraintTop_toBottomOf="@id/passwordText" />
+        app:layout_constraintEnd_toEndOf="@id/password_text"
+        app:layout_constraintStart_toStartOf="@id/password_text"
+        app:layout_constraintTop_toBottomOf="@id/password_text" />
 
     <TextView
+        android:id="@+id/signup_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
