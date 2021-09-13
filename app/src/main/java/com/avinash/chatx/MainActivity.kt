@@ -16,8 +16,5 @@ class MainActivity : AppCompatActivity() {
         if (FirebaseAuth.getInstance().currentUser == null) {
             startActivity(Intent(this, AuthenticationActivity::class.java))
         }
-
-
     }
-
 }

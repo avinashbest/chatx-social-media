@@ -11,4 +11,8 @@
     <string name="signup">Signup</string>
     <string name="already_a_user_login">Already a user? Login</string>
     <string name="name">Name</string>
+    <string name="feed">Feed</string>
+    <string name="search">Search</string>
+    <string name="chatrooms">Chatrooms</string>
+    <string name="profile">Profile</string>
 </resources>
