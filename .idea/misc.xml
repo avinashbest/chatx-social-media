@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/lock_icon.xml" value="0.31004566210045664" />
+        <entry key="app/src/main/res/drawable/placeholder_image.xml" value="0.28649789029535866" />
         <entry key="app/src/main/res/layout/activity_authentication.xml" value="0.3" />
+        <entry key="app/src/main/res/layout/activity_create_post.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.27310924369747897" />
+        <entry key="app/src/main/res/layout/fragment_chatroom.xml" value="0.27692307692307694" />
+        <entry key="app/src/main/res/layout/fragment_feed.xml" value="0.27341772151898736" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/menu/bottom_nav_view.xml" value="0.3" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.31004566210045664" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.31004566210045664" />

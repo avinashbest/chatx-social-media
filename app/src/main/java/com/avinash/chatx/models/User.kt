@@ -1,4 +1,4 @@
-package com.avinash.chatx
+package com.avinash.chatx.models
 
 data class User(
     val id: String = "",

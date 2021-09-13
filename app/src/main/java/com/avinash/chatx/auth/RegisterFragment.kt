@@ -1,4 +1,4 @@
-package com.avinash.chatx
+package com.avinash.chatx.auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.avinash.chatx.MainActivity
+import com.avinash.chatx.R
+import com.avinash.chatx.models.User
 import com.avinash.chatx.databinding.FragmentRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore

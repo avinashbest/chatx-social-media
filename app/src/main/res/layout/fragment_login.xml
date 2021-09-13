@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F8E9"
-    tools:context=".LoginFragment">
+    tools:context=".auth.LoginFragment">
 
     <ImageView
         android:id="@+id/logo_imageView"

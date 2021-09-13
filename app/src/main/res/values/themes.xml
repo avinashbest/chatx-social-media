@@ -13,4 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/emerald</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- Here you can add color of your choice  -->
+    <color name="ucrop_color_toolbar">@color/emerald</color>
+    <color name="ucrop_color_statusbar">@color/emerald</color>
+    <color name="ucrop_color_widget_active">@color/emerald</color>
 </resources>

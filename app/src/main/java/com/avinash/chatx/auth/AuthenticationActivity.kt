@@ -1,7 +1,8 @@
-package com.avinash.chatx
+package com.avinash.chatx.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.avinash.chatx.R
 import com.avinash.chatx.databinding.ActivityAuthenticationBinding
 
 class AuthenticationActivity : AppCompatActivity() {

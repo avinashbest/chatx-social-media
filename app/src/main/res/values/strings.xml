@@ -15,4 +15,6 @@
     <string name="search">Search</string>
     <string name="chatrooms">Chatrooms</string>
     <string name="profile">Profile</string>
+    <string name="post">Post</string>
+    <string name="how_s_you_feeling_today">How\'s You feeling Today?</string>
 </resources>
