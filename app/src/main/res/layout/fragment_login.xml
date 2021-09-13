@@ -32,7 +32,6 @@
         app:startIconDrawable="@drawable/person_icon">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
@@ -53,7 +52,6 @@
         app:startIconDrawable="@drawable/lock_icon">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password_passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />

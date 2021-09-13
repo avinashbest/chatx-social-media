@@ -13,7 +13,6 @@ class AuthenticationActivity : AppCompatActivity() {
         /*
         * As soon as user started, taking him/her to the login fragment
         * */
-
         supportFragmentManager.beginTransaction()
             .replace(R.id.auth_fragmentContainer, LoginFragment())
             .commit()
