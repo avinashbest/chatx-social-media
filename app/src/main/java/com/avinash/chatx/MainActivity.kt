@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         /*
         * Bottom Navigation View
         * */
-        binding.navigationView.setOnNavigationItemSelectedListener {
+        binding.navigationView.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.feed_item -> {
                     setFragment(FeedFragment())

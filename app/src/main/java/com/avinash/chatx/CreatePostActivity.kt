@@ -64,7 +64,7 @@ class CreatePostActivity : AppCompatActivity() {
 //                Storage Reference: Firebase Storage
                 val storage = FirebaseStorage.getInstance().reference.child("Images")
                     .child(FirebaseAuth.getInstance().currentUser?.email.toString() + "_" + System.currentTimeMillis() + ".jpg")
-//                Upload task: passing the uri of the image file which have to be upload to the firebase storage
+//                Upload task: Passing the uri of the image file which have to be upload to the firebase storage
                 val uploadTask = storage.putFile(imageUri!!)
 //                Uploading to Firebase
                 uploadTask.continueWithTask { task ->
@@ -88,6 +88,7 @@ class CreatePostActivity : AppCompatActivity() {
                                         "Posted Successfully",
                                         Toast.LENGTH_LONG
                                     ).show()
+                                    finish()
                                 } else {
                                     Toast.makeText(
                                         this,
@@ -101,7 +102,6 @@ class CreatePostActivity : AppCompatActivity() {
                     }
                 }
             }
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
