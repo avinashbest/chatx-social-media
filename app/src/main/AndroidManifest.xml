@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.avinash.chatx">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -7,10 +8,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/app_name_chatx"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ChatX">
+        android:theme="@style/Theme.ChatX"
+        tools:replace="android:label">
+        <activity
+            android:name=".CommentsActivity"
+            android:exported="true" />
         <activity
             android:name=".CreatePostActivity"
             android:exported="true" />

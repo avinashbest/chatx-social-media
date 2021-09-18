@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChatX</string>
+    <string name="app_name_chatx">ChatX</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password">Password</string>
@@ -17,4 +17,6 @@
     <string name="profile">Profile</string>
     <string name="post">Post</string>
     <string name="how_s_you_feeling_today">How\'s You feeling Today?</string>
+    <string name="create_post_floating_action_button">Create Post Floating Action Button</string>
+    <string name="enter_comment">Enter Comment</string>
 </resources>

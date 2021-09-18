@@ -1,6 +1,7 @@
 package com.avinash.chatx.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.avinash.chatx.CommentsActivity
 import com.avinash.chatx.R
 import com.avinash.chatx.models.Post
 import com.bumptech.glide.Glide
@@ -113,6 +115,12 @@ class FeedAdapter(options: FirestoreRecyclerOptions<Post>, val context: Context)
                     Toast.LENGTH_LONG
                 ).show()
             }
+        }
+//        Comment Feature
+        holder.commentIcon.setOnClickListener {
+            val intent = Intent(context, CommentsActivity::class.java)
+            intent.putExtra("postId", snapshots.getSnapshot(holder.bindingAdapterPosition).id)
+            context.startActivity(intent)
         }
     }
 

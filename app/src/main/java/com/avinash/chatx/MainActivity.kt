@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.avinash.chatx.auth.AuthenticationActivity
 import com.avinash.chatx.databinding.ActivityMainBinding
+import com.avinash.chatx.util.UserUtil
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
@@ -16,10 +17,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         /*
-        * If the user is not logged In, then taking to AuthenticationActivity*/
+        * If the user is not logged In, then taking to AuthenticationActivity
+        * */
         if (FirebaseAuth.getInstance().currentUser == null) {
             startActivity(Intent(this, AuthenticationActivity::class.java))
         }
+
+        UserUtil.getCurrentUser()
 
         /*
         * Default Fragment
