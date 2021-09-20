@@ -62,7 +62,7 @@ class FeedAdapter(options: FirestoreRecyclerOptions<Post>, val context: Context)
         val userId = FirebaseAuth.getInstance().currentUser?.uid
 
         val postDocument =
-            firestore.collection("Posts").document(snapshots.getSnapshot(holder.adapterPosition).id)
+            firestore.collection("Posts").document(snapshots.getSnapshot(holder.absoluteAdapterPosition).id)
 
         postDocument.get().addOnCompleteListener {
             if (it.isSuccessful) {
@@ -119,7 +119,7 @@ class FeedAdapter(options: FirestoreRecyclerOptions<Post>, val context: Context)
 //        Comment Feature
         holder.commentIcon.setOnClickListener {
             val intent = Intent(context, CommentsActivity::class.java)
-            intent.putExtra("postId", snapshots.getSnapshot(holder.bindingAdapterPosition).id)
+            intent.putExtra("postId", snapshots.getSnapshot(holder.absoluteAdapterPosition).id)
             context.startActivity(intent)
         }
     }

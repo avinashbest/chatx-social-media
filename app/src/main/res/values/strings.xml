@@ -19,4 +19,6 @@
     <string name="how_s_you_feeling_today">How\'s You feeling Today?</string>
     <string name="create_post_floating_action_button">Create Post Floating Action Button</string>
     <string name="enter_comment">Enter Comment</string>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
 </resources>

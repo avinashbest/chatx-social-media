@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.OnBackPressedCallback
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.avinash.chatx.adapters.FeedAdapter
@@ -58,6 +59,7 @@ class FeedFragment : Fragment() {
         }
 
         recyclerView.layoutManager = LinearLayoutManager(activity)
+        recyclerView.itemAnimator = null
     }
 
     override fun onStart() {

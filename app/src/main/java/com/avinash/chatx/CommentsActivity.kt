@@ -36,6 +36,7 @@ class CommentsActivity : AppCompatActivity() {
             firestore.collection("Posts").document(postId!!)
                 .collection("Comments")
                 .document().set(comment)
+
             binding.commentEditText.editableText.clear()
         }
     }
@@ -53,6 +54,7 @@ class CommentsActivity : AppCompatActivity() {
         }
         recyclerView.adapter = commentsAdapter
         recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.itemAnimator = null
     }
 
     override fun onStart() {
