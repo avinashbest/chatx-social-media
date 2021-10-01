@@ -22,4 +22,5 @@
     <string name="follow">Follow</string>
     <string name="following">Following</string>
     <string name="floating_action_button_chatrooms">floating action button chatrooms</string>
+    <string name="enter_message">Enter Message</string>
 </resources>

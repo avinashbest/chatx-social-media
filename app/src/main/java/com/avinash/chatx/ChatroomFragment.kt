@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
+import androidx.core.view.setPadding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.avinash.chatx.adapters.ChatroomAdapter
@@ -64,7 +65,6 @@ class ChatroomFragment : Fragment() {
             alertDialog.setNegativeButton("Cancel") { dialogInterface, i ->
                 dialogInterface.dismiss()
             }
-
             alertDialog.show()
         }
     }

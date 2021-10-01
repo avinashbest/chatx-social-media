@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.34717948717948716" />
+        <entry key="app/src/main/res/drawable/chat_text_other_shape.xml" value="0.28649789029535866" />
+        <entry key="app/src/main/res/drawable/chat_text_self_shape.xml" value="0.28649789029535866" />
         <entry key="app/src/main/res/drawable/comment_background.xml" value="0.28649789029535866" />
         <entry key="app/src/main/res/drawable/comment_icon.xml" value="0.28649789029535866" />
         <entry key="app/src/main/res/drawable/icon_like_fill.xml" value="0.28649789029535866" />
@@ -24,6 +26,8 @@
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.27692307692307694" />
+        <entry key="app/src/main/res/layout/item_chat_other.xml" value="0.27692307692307694" />
+        <entry key="app/src/main/res/layout/item_chat_self.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/layout/item_chatroom.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/layout/item_comments.xml" value="0.27692307692307694" />
         <entry key="app/src/main/res/layout/item_post.xml" value="0.27341772151898736" />
