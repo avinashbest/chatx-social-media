@@ -13,7 +13,6 @@ import com.avinash.chatx.util.UserUtil
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import java.util.*
 
 
 class SearchFragment : Fragment() {
