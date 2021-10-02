@@ -27,7 +27,7 @@ class ProfileFragment : Fragment() {
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding!!
 
-    var imageUri: Uri? = null
+    private var imageUri: Uri? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -56,7 +56,6 @@ class ProfileFragment : Fragment() {
             .placeholder(R.drawable.person_icon_black)
             .centerCrop()
             .into(binding.userImage)
-
 
         binding.btnSave.setOnClickListener {
             val newUserName = binding.userName.text.toString()
