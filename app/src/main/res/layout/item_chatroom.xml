@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/comment_background"
-        android:backgroundTint="@color/emerald"
-        android:padding="16dp"
-        android:textSize="16sp"
+        android:backgroundTint="@color/green"
+        android:padding="24dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Chatrooms Name" />

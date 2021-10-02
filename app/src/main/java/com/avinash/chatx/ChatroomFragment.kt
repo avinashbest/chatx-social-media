@@ -7,12 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
-import androidx.core.view.setPadding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.avinash.chatx.adapters.ChatroomAdapter
 import com.avinash.chatx.databinding.FragmentChatroomBinding
-import com.avinash.chatx.databinding.FragmentFeedBinding
 import com.avinash.chatx.models.Chatroom
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.firebase.firestore.FirebaseFirestore

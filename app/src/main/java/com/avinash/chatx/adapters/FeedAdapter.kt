@@ -62,7 +62,14 @@ class FeedAdapter(options: FirestoreRecyclerOptions<Post>, val context: Context)
         val userId = FirebaseAuth.getInstance().currentUser?.uid
 
         val postDocument =
-            firestore.collection("Posts").document(snapshots.getSnapshot(holder.absoluteAdapterPosition).id)
+            firestore.collection("Posts")
+                .document(snapshots.getSnapshot(holder.absoluteAdapterPosition).id)
+
+        postDocument.collection("Comments").get().addOnCompleteListener {
+            if (it.isSuccessful) {
+                holder.postCommentCount.text = it.result?.size().toString()
+            }
+        }
 
         postDocument.get().addOnCompleteListener {
             if (it.isSuccessful) {

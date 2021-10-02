@@ -23,4 +23,8 @@
     <string name="following">Following</string>
     <string name="floating_action_button_chatrooms">floating action button chatrooms</string>
     <string name="enter_message">Enter Message</string>
+    <string name="username">Username</string>
+    <string name="tell_us_about_yourself">Tell us about yourself</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
 </resources>
