@@ -31,6 +31,109 @@
 
 # Project Structure:
 
+```structure
+- [:app]
+    - com.avinash.chatx
+        - adapters
+            - ChatAdapter
+            - ChatroomAdapter
+            - CommentsAdapter
+            - FeedAdapter
+            - SearchAdapter
+        - auth
+            - AuthenticationActivity
+            - LoginFragment
+            - RegisterFragment
+        - models
+            - Chat
+            - Chatroom
+            - Comment
+            - Post
+            - User
+        - util
+            - UserUtil
+        - ChatFragment
+        - ChatroomFragment
+        - CommentsActivity
+        - CreatePostActivity
+        - FeedFragment
+        - MainActivity
+        - ProfileActivity
+        - SearchFragment
+    - res
+        - drawable
+            - add_icon.xml
+            - chat_icon.xml
+            - chat_text_other_shape.xml
+            - chat_text_self_shape.xml
+            - chatx_logo.png
+            - comment_background.xml
+            - comment_icon.xml
+            - feed_icon.xml
+            - icon_like_fill.xml
+            - like_icon_outline.xml
+            - lock_icon.xml
+            - person_icon.xml
+            - person_icon_black.xml
+            - placeholder_image.xml
+            - search_icon.xml
+            - send_icon.xml
+        - layout
+            - activity_authentication.xml
+            - activity_comments.xml
+            - activity_create_post.xml
+            - activity_main.xml
+            - fragment_chat.xml
+            - fragment_chatroom.xml
+            - fragment_feed.xml
+            - fragment_login.xml
+            - fragment_profile.xml
+            - fragment_register.xml
+            - fragment_search.xml
+            - item_chat_other.xml
+            - item_chat_self.xml
+            - item_chatroom.xml
+            - item_comments.xml
+            - item_post.xml
+            - item_user.xml
+        - menu
+            - bottom_nav_view.xml
+            - search_menu.xml
+        - minmap
+            - ic_launcher.png
+                - ic_launcher.png
+                - ic_launcher.png
+                - ic_launcher.xml
+                - ic_launcher.png
+                - ic_launcher.png
+            - ic_launcher_foreground.png
+                - ic_launcher_foreground.png
+                - ic_launcher_foreground.png
+                - ic_launcher_foreground.png
+                - ic_launcher_foreground.png
+            - ic_launcher_round.png
+                - ic_launcher_round.png
+                - ic_launcher_round.png
+                - ic_launcher_round.png
+                - ic_launcher_round.xml
+                - ic_launcher_round.png
+        - values
+            - colors.xml
+            - ic_launcher_background.xml
+            - strings.xml
+            - themes.xml
+- Gradle Scripts
+    - Build.gradle [Project]
+    - Build.gradle [Module]
+    - gradle-wrapper.properties
+    - proguard-rules.pro
+    - gradle.properties
+    - settings.gradle
+    - local.properties
+```
+
 # Live Working Preview:
 
 # Credits:
+
+- [Avinash Kumar](https://github.com/avinashbest)
