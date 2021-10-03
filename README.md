@@ -9,14 +9,14 @@
 # Preview:
 
 <p float="left">
-  <img src="preview/1.jpeg" width="180" />
-  <img src="preview/2.jpeg" width="180" /> 
-  <img src="preview/3.jpeg" width="180" />
-  <img src="preview/4.jpeg" width="180" />
-  <img src="preview/5.jpeg" width="180" />
-  <img src="preview/6.jpeg" width="180" />
-  <img src="preview/7.jpeg" width="180" />
-  <img src="preview/8.jpeg" width="180" />
+  <img src="preview/1.jpeg" width="185" />
+  <img src="preview/2.jpeg" width="185" /> 
+  <img src="preview/3.jpeg" width="185" />
+  <img src="preview/4.jpeg" width="185" />
+  <img src="preview/5.jpeg" width="185" />
+  <img src="preview/6.jpeg" width="185" />
+  <img src="preview/7.jpeg" width="185" />
+  <img src="preview/8.jpeg" width="185" />
 </p>
 
 # Functionalities:
