@@ -19,7 +19,7 @@
   <img src="preview/8.jpeg" width="190" />
 </p>
 
-# Functionalities:
+<!-- # Functionalities: -->
 
 # Tools/Technologies Used:
 
